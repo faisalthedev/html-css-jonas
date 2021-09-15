@@ -2,6 +2,7 @@
 * Main Color: #087f5b
 * Gray Color: #343a40
 * Violet color: #7048e8
+* Violet Dark: #5f3dc4
 * Gray color: #e9ecef
 */
 * {
@@ -25,7 +26,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -40,12 +40,46 @@ nav {
 
 menu {
   background-color: #7048e8;
-  color: #fff;
   grid-column: 2/-1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 40px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5f3dc4;
+  border: 0;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+button:last-child {
+  background-color: #d6336c;
+  margin-left: auto;
 }
 
 section {
   background-color: #e9ecef;
+  padding: 40px;
+
+  display: flex;
+  overflow: scroll;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.email {
+  background-color: #adb5bd;
+  height: 96px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 aside {
