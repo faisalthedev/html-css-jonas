@@ -1,0 +1,53 @@
+/**
+* Main Color: #087f5b
+* Gray Color: #343a40
+* Violet color: #7048e8
+* Gray color: #e9ecef
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+  line-height: 1;
+  font-size: 24px;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+}
+
+nav,
+menu,
+section,
+main,
+aside {
+  padding-top: 24px;
+}
+
+nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-row: 1 /-1;
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2/-1;
+}
+
+section {
+  background-color: #e9ecef;
+}
+
+aside {
+  background-color: #e9ecef;
+}
