@@ -20,8 +20,16 @@ body {
 }
 
 header {
-  background-color: orange;
+  /* background-color: orange; */
   height: 100vh;
+  position: relative;
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
 }
 
 nav {
@@ -29,7 +37,19 @@ nav {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  background-color: green;
+  padding-top: 32px;
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container--inner {
+  width: 50%;
 }
 
 h1 {
