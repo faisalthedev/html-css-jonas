@@ -13,9 +13,34 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  color: #444;
   line-height: 1;
-  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* --- Section: Hero --- */
+.section-hero {
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-text-box {
+}
+.hero-img-box {
+}
+.heading-primary {
+}
+.hero-img {
+  width: 100%;
 }
